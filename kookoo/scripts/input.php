@@ -4,7 +4,7 @@ if ( $_SESSION['var'] == 0 ) {
 
 	$cd->setMaxDigits("10");
 	$cd->setTimeOut("12000");
-	$r->addPlayText("Please enter your land area in digits"); 
+	$r->addPlayText("Please enter your land area "); 
 	$r->addCollectDtmf($cd);  
 	$_SESSION['var']=10;
 	
